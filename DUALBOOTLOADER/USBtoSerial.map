@@ -1,0 +1,1604 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+                              obj/HIDParser.o (__mulhi3)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+                              obj/USBtoSerial.o (__udivmodsi4)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+                              c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o (exit)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+                              obj/USBtoSerial.o (__do_copy_data)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+                              obj/USBtoSerial.o (__do_clear_bss)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+                              obj/RNDISClassDevice.o (memcpy_P)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+                              obj/CDCClassDevice.o (__strlen_P)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+                              obj/HIDClassDevice.o (memcmp)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+                              obj/HIDClassDevice.o (memcpy)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+                              obj/HIDClassDevice.o (memset)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+                              obj/EndpointStream_AVR8.o (eeprom_read_byte)
+c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+                              obj/EndpointStream_AVR8.o (eeprom_update_byte)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_IsInitialized   0x1               obj/USBTask.o
+mCompleteMessage    0x4               obj/USBtoSerial.o
+mPendingMessageValid
+                    0x1               obj/USBtoSerial.o
+USB_Device_ConfigurationNumber
+                    0x1               obj/DeviceStandardReq.o
+mPendingMessageExpectedLength
+                    0x1               obj/USBtoSerial.o
+mRunningStatus_RX   0x1               obj/USBtoSerial.o
+USB_Device_CurrentlySelfPowered
+                    0x1               obj/DeviceStandardReq.o
+mPendingMessageIndex
+                    0x1               obj/USBtoSerial.o
+USB_ControlRequest  0x8               obj/USBTask.o
+mRunningStatus_TX   0x1               obj/USBtoSerial.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               obj/DeviceStandardReq.o
+mPendingMessage     0x3               obj/USBtoSerial.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .text          0x00000000        0x0 obj/USBtoSerial.o
+ .text.getStatus
+                0x00000000        0x8 obj/USBtoSerial.o
+ .text.getChannelFromStatusByte
+                0x00000000        0x6 obj/USBtoSerial.o
+ .rodata        0x00000000        0x2 obj/USBtoSerial.o
+ .text          0x00000000        0x0 obj/Descriptors.o
+ .data          0x00000000        0x0 obj/Descriptors.o
+ .bss           0x00000000        0x0 obj/Descriptors.o
+ .text          0x00000000        0x0 obj/HIDParser.o
+ .data          0x00000000        0x0 obj/HIDParser.o
+ .bss           0x00000000        0x0 obj/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x00000000      0x6d8 obj/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x00000000       0xbc obj/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x00000000       0xc0 obj/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x00000000       0x56 obj/HIDParser.o
+ .debug_info    0x00000000      0x739 obj/HIDParser.o
+ .debug_abbrev  0x00000000      0x21a obj/HIDParser.o
+ .debug_loc     0x00000000      0xac1 obj/HIDParser.o
+ .debug_aranges
+                0x00000000       0x38 obj/HIDParser.o
+ .debug_ranges  0x00000000       0xd0 obj/HIDParser.o
+ .debug_line    0x00000000      0x589 obj/HIDParser.o
+ .debug_str     0x00000000      0x6e9 obj/HIDParser.o
+ .comment       0x00000000       0x12 obj/HIDParser.o
+ .debug_frame   0x00000000      0x11c obj/HIDParser.o
+ .text          0x00000000        0x0 obj/Device_AVR8.o
+ .data          0x00000000        0x0 obj/Device_AVR8.o
+ .bss           0x00000000        0x0 obj/Device_AVR8.o
+ .text.USB_Device_SendRemoteWakeup
+                0x00000000       0x2c obj/Device_AVR8.o
+ .debug_info    0x00000000       0xd2 obj/Device_AVR8.o
+ .debug_abbrev  0x00000000       0x80 obj/Device_AVR8.o
+ .debug_aranges
+                0x00000000       0x20 obj/Device_AVR8.o
+ .debug_ranges  0x00000000       0x10 obj/Device_AVR8.o
+ .debug_line    0x00000000      0x12d obj/Device_AVR8.o
+ .debug_str     0x00000000      0x225 obj/Device_AVR8.o
+ .comment       0x00000000       0x12 obj/Device_AVR8.o
+ .debug_frame   0x00000000       0x24 obj/Device_AVR8.o
+ .text          0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .data          0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .bss           0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x00000000       0x82 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x00000000       0x82 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x00000000       0xa0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x00000000       0xa0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_LE
+                0x00000000       0x9a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x00000000       0xa2 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x00000000       0x9c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x00000000       0x9c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x00000000       0xc2 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x00000000       0x74 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x00000000       0x76 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x00000000       0xc4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x00000000       0xe4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x00000000       0xf6 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x00000000       0x88 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x00000000       0x86 obj/EndpointStream_AVR8.o
+ .text          0x00000000        0x0 obj/Endpoint_AVR8.o
+ .data          0x00000000        0x0 obj/Endpoint_AVR8.o
+ .bss           0x00000000        0x0 obj/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x00000000       0x28 obj/Endpoint_AVR8.o
+ .text          0x00000000        0x0 obj/Host_AVR8.o
+ .data          0x00000000        0x0 obj/Host_AVR8.o
+ .bss           0x00000000        0x0 obj/Host_AVR8.o
+ .debug_info    0x00000000       0x56 obj/Host_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/Host_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/Host_AVR8.o
+ .debug_line    0x00000000       0x1a obj/Host_AVR8.o
+ .debug_str     0x00000000      0x1c4 obj/Host_AVR8.o
+ .comment       0x00000000       0x12 obj/Host_AVR8.o
+ .text          0x00000000        0x0 obj/PipeStream_AVR8.o
+ .data          0x00000000        0x0 obj/PipeStream_AVR8.o
+ .bss           0x00000000        0x0 obj/PipeStream_AVR8.o
+ .debug_info    0x00000000       0x56 obj/PipeStream_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/PipeStream_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/PipeStream_AVR8.o
+ .debug_line    0x00000000       0x1a obj/PipeStream_AVR8.o
+ .debug_str     0x00000000      0x1ca obj/PipeStream_AVR8.o
+ .comment       0x00000000       0x12 obj/PipeStream_AVR8.o
+ .text          0x00000000        0x0 obj/Pipe_AVR8.o
+ .data          0x00000000        0x0 obj/Pipe_AVR8.o
+ .bss           0x00000000        0x0 obj/Pipe_AVR8.o
+ .debug_info    0x00000000       0x56 obj/Pipe_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/Pipe_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/Pipe_AVR8.o
+ .debug_line    0x00000000       0x1a obj/Pipe_AVR8.o
+ .debug_str     0x00000000      0x1c4 obj/Pipe_AVR8.o
+ .comment       0x00000000       0x12 obj/Pipe_AVR8.o
+ .text          0x00000000        0x0 obj/USBController_AVR8.o
+ .data          0x00000000        0x0 obj/USBController_AVR8.o
+ .bss           0x00000000        0x0 obj/USBController_AVR8.o
+ .text.USB_Disable
+                0x00000000       0x2e obj/USBController_AVR8.o
+ .text          0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .data          0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .bss           0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .text          0x00000000        0x0 obj/ConfigDescriptors.o
+ .data          0x00000000        0x0 obj/ConfigDescriptors.o
+ .bss           0x00000000        0x0 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x00000000       0x3c obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x00000000       0x38 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x00000000       0x46 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x00000000       0x3e obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x00000000       0x66 obj/ConfigDescriptors.o
+ .debug_info    0x00000000      0x3d5 obj/ConfigDescriptors.o
+ .debug_abbrev  0x00000000      0x185 obj/ConfigDescriptors.o
+ .debug_loc     0x00000000      0x59f obj/ConfigDescriptors.o
+ .debug_aranges
+                0x00000000       0x40 obj/ConfigDescriptors.o
+ .debug_ranges  0x00000000       0x30 obj/ConfigDescriptors.o
+ .debug_line    0x00000000      0x1f7 obj/ConfigDescriptors.o
+ .debug_str     0x00000000      0x40d obj/ConfigDescriptors.o
+ .comment       0x00000000       0x12 obj/ConfigDescriptors.o
+ .debug_frame   0x00000000       0xfc obj/ConfigDescriptors.o
+ .text          0x00000000        0x0 obj/DeviceStandardReq.o
+ .data          0x00000000        0x0 obj/DeviceStandardReq.o
+ .bss           0x00000000        0x0 obj/DeviceStandardReq.o
+ .text          0x00000000        0x0 obj/Events.o
+ .data          0x00000000        0x0 obj/Events.o
+ .bss           0x00000000        0x0 obj/Events.o
+ .text          0x00000000        0x0 obj/HostStandardReq.o
+ .data          0x00000000        0x0 obj/HostStandardReq.o
+ .bss           0x00000000        0x0 obj/HostStandardReq.o
+ .debug_info    0x00000000       0x56 obj/HostStandardReq.o
+ .debug_abbrev  0x00000000       0x26 obj/HostStandardReq.o
+ .debug_aranges
+                0x00000000       0x18 obj/HostStandardReq.o
+ .debug_line    0x00000000       0x1a obj/HostStandardReq.o
+ .debug_str     0x00000000      0x1c5 obj/HostStandardReq.o
+ .comment       0x00000000       0x12 obj/HostStandardReq.o
+ .text          0x00000000        0x0 obj/USBTask.o
+ .data          0x00000000        0x0 obj/USBTask.o
+ .bss           0x00000000        0x0 obj/USBTask.o
+ .text          0x00000000        0x0 obj/AudioClassDevice.o
+ .data          0x00000000        0x0 obj/AudioClassDevice.o
+ .bss           0x00000000        0x0 obj/AudioClassDevice.o
+ .text.Audio_Device_ConfigureEndpoints
+                0x00000000       0x32 obj/AudioClassDevice.o
+ .text.Audio_Device_Event_Stub
+                0x00000000        0x2 obj/AudioClassDevice.o
+ .text.Audio_Device_ProcessControlRequest
+                0x00000000      0x2e4 obj/AudioClassDevice.o
+ .debug_info    0x00000000      0x839 obj/AudioClassDevice.o
+ .debug_abbrev  0x00000000      0x1df obj/AudioClassDevice.o
+ .debug_loc     0x00000000      0x37c obj/AudioClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/AudioClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/AudioClassDevice.o
+ .debug_line    0x00000000      0x437 obj/AudioClassDevice.o
+ .debug_str     0x00000000      0x6d1 obj/AudioClassDevice.o
+ .comment       0x00000000       0x12 obj/AudioClassDevice.o
+ .debug_frame   0x00000000       0xa8 obj/AudioClassDevice.o
+ .text          0x00000000        0x0 obj/CDCClassDevice.o
+ .data          0x00000000        0x0 obj/CDCClassDevice.o
+ .bss           0x00000000        0x0 obj/CDCClassDevice.o
+ .text.CDC_Device_SendString
+                0x00000000       0x40 obj/CDCClassDevice.o
+ .text.CDC_Device_SendString_P
+                0x00000000       0x50 obj/CDCClassDevice.o
+ .text.CDC_Device_SendData
+                0x00000000       0x32 obj/CDCClassDevice.o
+ .text.CDC_Device_SendData_P
+                0x00000000       0x32 obj/CDCClassDevice.o
+ .text.CDC_Device_putchar
+                0x00000000       0x22 obj/CDCClassDevice.o
+ .text.CDC_Device_BytesReceived
+                0x00000000       0x48 obj/CDCClassDevice.o
+ .text.CDC_Device_getchar
+                0x00000000       0x14 obj/CDCClassDevice.o
+ .text.CDC_Device_getchar_Blocking
+                0x00000000       0x30 obj/CDCClassDevice.o
+ .rodata        0x00000000        0x8 obj/CDCClassDevice.o
+ .text.CDC_Device_SendControlLineStateChange
+                0x00000000       0x8c obj/CDCClassDevice.o
+ .text.CDC_Device_CreateStream
+                0x00000000       0x26 obj/CDCClassDevice.o
+ .text.CDC_Device_CreateBlockingStream
+                0x00000000       0x26 obj/CDCClassDevice.o
+ .text          0x00000000        0x0 obj/HIDClassDevice.o
+ .data          0x00000000        0x0 obj/HIDClassDevice.o
+ .bss           0x00000000        0x0 obj/HIDClassDevice.o
+ .text.HID_Device_ProcessControlRequest
+                0x00000000      0x278 obj/HIDClassDevice.o
+ .text.HID_Device_ConfigureEndpoints
+                0x00000000       0x28 obj/HIDClassDevice.o
+ .text.HID_Device_USBTask
+                0x00000000      0x17a obj/HIDClassDevice.o
+ .debug_info    0x00000000      0x901 obj/HIDClassDevice.o
+ .debug_abbrev  0x00000000      0x21a obj/HIDClassDevice.o
+ .debug_loc     0x00000000      0x43e obj/HIDClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/HIDClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/HIDClassDevice.o
+ .debug_line    0x00000000      0x500 obj/HIDClassDevice.o
+ .debug_str     0x00000000      0x71c obj/HIDClassDevice.o
+ .comment       0x00000000       0x12 obj/HIDClassDevice.o
+ .debug_frame   0x00000000       0xe4 obj/HIDClassDevice.o
+ .text          0x00000000        0x0 obj/MassStorageClassDevice.o
+ .data          0x00000000        0x0 obj/MassStorageClassDevice.o
+ .bss           0x00000000        0x0 obj/MassStorageClassDevice.o
+ .text.MS_Device_ProcessControlRequest
+                0x00000000       0x86 obj/MassStorageClassDevice.o
+ .text.MS_Device_ConfigureEndpoints
+                0x00000000       0x3e obj/MassStorageClassDevice.o
+ .text.MS_Device_USBTask
+                0x00000000      0x232 obj/MassStorageClassDevice.o
+ .debug_info    0x00000000      0x8eb obj/MassStorageClassDevice.o
+ .debug_abbrev  0x00000000      0x26d obj/MassStorageClassDevice.o
+ .debug_loc     0x00000000      0x2ac obj/MassStorageClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/MassStorageClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/MassStorageClassDevice.o
+ .debug_line    0x00000000      0x4ab obj/MassStorageClassDevice.o
+ .debug_str     0x00000000      0x81d obj/MassStorageClassDevice.o
+ .comment       0x00000000       0x12 obj/MassStorageClassDevice.o
+ .debug_frame   0x00000000       0x80 obj/MassStorageClassDevice.o
+ .text          0x00000000        0x0 obj/MIDIClassDevice.o
+ .data          0x00000000        0x0 obj/MIDIClassDevice.o
+ .bss           0x00000000        0x0 obj/MIDIClassDevice.o
+ .text.MIDI_Device_ConfigureEndpoints
+                0x00000000       0x32 obj/MIDIClassDevice.o
+ .text.MIDI_Device_SendEventPacket
+                0x00000000       0x44 obj/MIDIClassDevice.o
+ .text.MIDI_Device_Flush
+                0x00000000       0x2a obj/MIDIClassDevice.o
+ .text.MIDI_Device_USBTask
+                0x00000000       0x20 obj/MIDIClassDevice.o
+ .text.MIDI_Device_ReceiveEventPacket
+                0x00000000       0x48 obj/MIDIClassDevice.o
+ .debug_info    0x00000000      0x5cc obj/MIDIClassDevice.o
+ .debug_abbrev  0x00000000      0x201 obj/MIDIClassDevice.o
+ .debug_loc     0x00000000      0x304 obj/MIDIClassDevice.o
+ .debug_aranges
+                0x00000000       0x40 obj/MIDIClassDevice.o
+ .debug_ranges  0x00000000       0x30 obj/MIDIClassDevice.o
+ .debug_line    0x00000000      0x355 obj/MIDIClassDevice.o
+ .debug_str     0x00000000      0x692 obj/MIDIClassDevice.o
+ .comment       0x00000000       0x12 obj/MIDIClassDevice.o
+ .debug_frame   0x00000000       0x70 obj/MIDIClassDevice.o
+ .text          0x00000000        0x0 obj/PrinterClassDevice.o
+ .data          0x00000000        0x0 obj/PrinterClassDevice.o
+ .bss           0x00000000        0x0 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ConfigureEndpoints
+                0x00000000       0x38 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendString
+                0x00000000       0x30 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendData
+                0x00000000       0x22 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendByte
+                0x00000000       0x3e obj/PrinterClassDevice.o
+ .text.PRNT_Device_putchar
+                0x00000000       0x22 obj/PrinterClassDevice.o
+ .text.PRNT_Device_Flush
+                0x00000000       0x44 obj/PrinterClassDevice.o
+ .text.PRNT_Device_USBTask
+                0x00000000       0x9a obj/PrinterClassDevice.o
+ .text.PRNT_Device_BytesReceived
+                0x00000000       0x38 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ReceiveByte
+                0x00000000       0x48 obj/PrinterClassDevice.o
+ .text.PRNT_Device_getchar
+                0x00000000       0x14 obj/PrinterClassDevice.o
+ .text.PRNT_Device_getchar_Blocking
+                0x00000000       0x30 obj/PrinterClassDevice.o
+ .text.PRNT_Device_CreateStream
+                0x00000000       0x26 obj/PrinterClassDevice.o
+ .text.PRNT_Device_CreateBlockingStream
+                0x00000000       0x26 obj/PrinterClassDevice.o
+ .text.PRNT_Device_Event_Stub
+                0x00000000        0x2 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ProcessControlRequest
+                0x00000000       0xd6 obj/PrinterClassDevice.o
+ .debug_info    0x00000000      0xcaa obj/PrinterClassDevice.o
+ .debug_abbrev  0x00000000      0x317 obj/PrinterClassDevice.o
+ .debug_loc     0x00000000      0x84e obj/PrinterClassDevice.o
+ .debug_aranges
+                0x00000000       0x90 obj/PrinterClassDevice.o
+ .debug_ranges  0x00000000       0x80 obj/PrinterClassDevice.o
+ .debug_line    0x00000000      0x6b7 obj/PrinterClassDevice.o
+ .debug_str     0x00000000      0x960 obj/PrinterClassDevice.o
+ .comment       0x00000000       0x12 obj/PrinterClassDevice.o
+ .debug_frame   0x00000000      0x13c obj/PrinterClassDevice.o
+ .text          0x00000000        0x0 obj/RNDISClassDevice.o
+ .data          0x00000000        0x0 obj/RNDISClassDevice.o
+ .bss           0x00000000        0x0 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ProcessControlRequest
+                0x00000000      0x506 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ConfigureEndpoints
+                0x00000000       0x64 obj/RNDISClassDevice.o
+ .rodata        0x00000000        0x8 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_USBTask
+                0x00000000       0x7e obj/RNDISClassDevice.o
+ .text.RNDIS_Device_IsPacketReceived
+                0x00000000       0x26 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ReadPacket
+                0x00000000       0xb4 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_SendPacket
+                0x00000000       0xd2 obj/RNDISClassDevice.o
+ .progmem.data  0x00000000       0x6c obj/RNDISClassDevice.o
+ .debug_info    0x00000000     0x10ca obj/RNDISClassDevice.o
+ .debug_abbrev  0x00000000      0x34c obj/RNDISClassDevice.o
+ .debug_loc     0x00000000      0xdde obj/RNDISClassDevice.o
+ .debug_aranges
+                0x00000000       0x48 obj/RNDISClassDevice.o
+ .debug_ranges  0x00000000       0x88 obj/RNDISClassDevice.o
+ .debug_line    0x00000000      0x6cc obj/RNDISClassDevice.o
+ .debug_str     0x00000000      0xd8c obj/RNDISClassDevice.o
+ .comment       0x00000000       0x12 obj/RNDISClassDevice.o
+ .debug_frame   0x00000000      0x10c obj/RNDISClassDevice.o
+ .text          0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .data          0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .bss           0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .debug_info    0x00000000       0x56 obj/AndroidAccessoryClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/AndroidAccessoryClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/AndroidAccessoryClassHost.o
+ .debug_line    0x00000000       0x1a obj/AndroidAccessoryClassHost.o
+ .debug_str     0x00000000      0x1d5 obj/AndroidAccessoryClassHost.o
+ .comment       0x00000000       0x12 obj/AndroidAccessoryClassHost.o
+ .text          0x00000000        0x0 obj/AudioClassHost.o
+ .data          0x00000000        0x0 obj/AudioClassHost.o
+ .bss           0x00000000        0x0 obj/AudioClassHost.o
+ .debug_info    0x00000000       0x56 obj/AudioClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/AudioClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/AudioClassHost.o
+ .debug_line    0x00000000       0x1a obj/AudioClassHost.o
+ .debug_str     0x00000000      0x1ca obj/AudioClassHost.o
+ .comment       0x00000000       0x12 obj/AudioClassHost.o
+ .text          0x00000000        0x0 obj/CDCClassHost.o
+ .data          0x00000000        0x0 obj/CDCClassHost.o
+ .bss           0x00000000        0x0 obj/CDCClassHost.o
+ .debug_info    0x00000000       0x56 obj/CDCClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/CDCClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/CDCClassHost.o
+ .debug_line    0x00000000       0x1a obj/CDCClassHost.o
+ .debug_str     0x00000000      0x1c8 obj/CDCClassHost.o
+ .comment       0x00000000       0x12 obj/CDCClassHost.o
+ .text          0x00000000        0x0 obj/HIDClassHost.o
+ .data          0x00000000        0x0 obj/HIDClassHost.o
+ .bss           0x00000000        0x0 obj/HIDClassHost.o
+ .debug_info    0x00000000       0x56 obj/HIDClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/HIDClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/HIDClassHost.o
+ .debug_line    0x00000000       0x1a obj/HIDClassHost.o
+ .debug_str     0x00000000      0x1c8 obj/HIDClassHost.o
+ .comment       0x00000000       0x12 obj/HIDClassHost.o
+ .text          0x00000000        0x0 obj/MassStorageClassHost.o
+ .data          0x00000000        0x0 obj/MassStorageClassHost.o
+ .bss           0x00000000        0x0 obj/MassStorageClassHost.o
+ .debug_info    0x00000000       0x56 obj/MassStorageClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/MassStorageClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/MassStorageClassHost.o
+ .debug_line    0x00000000       0x1a obj/MassStorageClassHost.o
+ .debug_str     0x00000000      0x1d0 obj/MassStorageClassHost.o
+ .comment       0x00000000       0x12 obj/MassStorageClassHost.o
+ .text          0x00000000        0x0 obj/MIDIClassHost.o
+ .data          0x00000000        0x0 obj/MIDIClassHost.o
+ .bss           0x00000000        0x0 obj/MIDIClassHost.o
+ .debug_info    0x00000000       0x56 obj/MIDIClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/MIDIClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/MIDIClassHost.o
+ .debug_line    0x00000000       0x1a obj/MIDIClassHost.o
+ .debug_str     0x00000000      0x1c9 obj/MIDIClassHost.o
+ .comment       0x00000000       0x12 obj/MIDIClassHost.o
+ .text          0x00000000        0x0 obj/PrinterClassHost.o
+ .data          0x00000000        0x0 obj/PrinterClassHost.o
+ .bss           0x00000000        0x0 obj/PrinterClassHost.o
+ .debug_info    0x00000000       0x56 obj/PrinterClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/PrinterClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/PrinterClassHost.o
+ .debug_line    0x00000000       0x1a obj/PrinterClassHost.o
+ .debug_str     0x00000000      0x1cc obj/PrinterClassHost.o
+ .comment       0x00000000       0x12 obj/PrinterClassHost.o
+ .text          0x00000000        0x0 obj/RNDISClassHost.o
+ .data          0x00000000        0x0 obj/RNDISClassHost.o
+ .bss           0x00000000        0x0 obj/RNDISClassHost.o
+ .debug_info    0x00000000       0x56 obj/RNDISClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/RNDISClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/RNDISClassHost.o
+ .debug_line    0x00000000       0x1a obj/RNDISClassHost.o
+ .debug_str     0x00000000      0x1ca obj/RNDISClassHost.o
+ .comment       0x00000000       0x12 obj/RNDISClassHost.o
+ .text          0x00000000        0x0 obj/StillImageClassHost.o
+ .data          0x00000000        0x0 obj/StillImageClassHost.o
+ .bss           0x00000000        0x0 obj/StillImageClassHost.o
+ .debug_info    0x00000000       0x56 obj/StillImageClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/StillImageClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/StillImageClassHost.o
+ .debug_line    0x00000000       0x1a obj/StillImageClassHost.o
+ .debug_str     0x00000000      0x1cf obj/StillImageClassHost.o
+ .comment       0x00000000       0x12 obj/StillImageClassHost.o
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.mul
+                0x00000000       0x22 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .debug_line    0x00000000       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .debug_info    0x00000000       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x00000000       0x14 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x00000000       0x20 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+ .text.avr-libc
+                0x00000000       0x1a c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+ .text.avr-libc
+                0x00000000        0xe c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+ .text.avr-libc
+                0x00000000       0x10 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+ .text          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+ .data          0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+ .text.avr-libc
+                0x00000000       0x24 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00010000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+LOAD obj/USBtoSerial.o
+LOAD obj/Descriptors.o
+LOAD obj/HIDParser.o
+LOAD obj/Device_AVR8.o
+LOAD obj/EndpointStream_AVR8.o
+LOAD obj/Endpoint_AVR8.o
+LOAD obj/Host_AVR8.o
+LOAD obj/PipeStream_AVR8.o
+LOAD obj/Pipe_AVR8.o
+LOAD obj/USBController_AVR8.o
+LOAD obj/USBInterrupt_AVR8.o
+LOAD obj/ConfigDescriptors.o
+LOAD obj/DeviceStandardReq.o
+LOAD obj/Events.o
+LOAD obj/HostStandardReq.o
+LOAD obj/USBTask.o
+LOAD obj/AudioClassDevice.o
+LOAD obj/CDCClassDevice.o
+LOAD obj/HIDClassDevice.o
+LOAD obj/MassStorageClassDevice.o
+LOAD obj/MIDIClassDevice.o
+LOAD obj/PrinterClassDevice.o
+LOAD obj/RNDISClassDevice.o
+LOAD obj/AndroidAccessoryClassHost.o
+LOAD obj/AudioClassHost.o
+LOAD obj/CDCClassHost.o
+LOAD obj/HIDClassHost.o
+LOAD obj/MassStorageClassHost.o
+LOAD obj/MIDIClassHost.o
+LOAD obj/PrinterClassHost.o
+LOAD obj/RNDISClassHost.o
+LOAD obj/StillImageClassHost.o
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libm.a
+START GROUP
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libm.a
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a
+LOAD c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a
+END GROUP
+                0x00010000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x10000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1604
+ *(.vectors)
+ .vectors       0x00000000       0x74 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000074                . = ALIGN (0x2)
+                0x00000074                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000074        0x0 linker stubs
+ *(.trampolines*)
+                0x00000074                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x00000074      0x147 obj/Descriptors.o
+                0x00000074                MIDI_ProductString
+                0x000000a0                Serial_ProductString
+                0x000000d2                ManufacturerString
+                0x000000f0                LanguageString
+                0x000000f4                MIDI_ConfigurationDescriptor
+                0x00000159                Serial_ConfigurationDescriptor
+                0x00000197                MIDI_DeviceDescriptor
+                0x000001a9                Serial_DeviceDescriptor
+                0x000001bc                . = ALIGN (0x2)
+ *fill*         0x000001bb        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001bc                __ctors_start = .
+ *(.ctors)
+                0x000001bc                __ctors_end = .
+                0x000001bc                __dtors_start = .
+ *(.dtors)
+                0x000001bc                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000001bc        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+                0x000001bc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001bc        0xc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000001c8       0x16 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+                0x000001c8                __do_copy_data
+ .init4         0x000001de       0x10 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+                0x000001de                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000001ee        0x6 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ *(.init9)
+ *(.text)
+ .text          0x000001f4        0x2 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+                0x000001f4                __vector_22
+                0x000001f4                __vector_28
+                0x000001f4                __vector_1
+                0x000001f4                __vector_24
+                0x000001f4                __bad_interrupt
+                0x000001f4                __vector_6
+                0x000001f4                __vector_3
+                0x000001f4                __vector_25
+                0x000001f4                __vector_13
+                0x000001f4                __vector_17
+                0x000001f4                __vector_19
+                0x000001f4                __vector_7
+                0x000001f4                __vector_27
+                0x000001f4                __vector_5
+                0x000001f4                __vector_4
+                0x000001f4                __vector_9
+                0x000001f4                __vector_2
+                0x000001f4                __vector_21
+                0x000001f4                __vector_15
+                0x000001f4                __vector_8
+                0x000001f4                __vector_26
+                0x000001f4                __vector_14
+                0x000001f4                __vector_10
+                0x000001f4                __vector_16
+                0x000001f4                __vector_18
+                0x000001f4                __vector_20
+                0x000001f6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.LEDs_Init
+                0x000001f6        0xe obj/USBtoSerial.o
+ .text.LEDs_SetAllLEDs
+                0x00000204        0xa obj/USBtoSerial.o
+ .text.RingBuffer_Insert
+                0x0000020e       0x36 obj/USBtoSerial.o
+ .text.RingBuffer_Remove
+                0x00000244       0x32 obj/USBtoSerial.o
+ .text.SetupHardware
+                0x00000276       0xa8 obj/USBtoSerial.o
+                0x00000276                SetupHardware
+ .text.EVENT_USB_Device_Connect
+                0x0000031e        0x4 obj/USBtoSerial.o
+                0x0000031e                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x00000322        0x4 obj/USBtoSerial.o
+                0x00000322                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x00000326       0x3c obj/USBtoSerial.o
+                0x00000326                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x00000362        0x8 obj/USBtoSerial.o
+                0x00000362                EVENT_USB_Device_ControlRequest
+ .text.MIDI_To_Host
+                0x0000036a       0x58 obj/USBtoSerial.o
+                0x0000036a                MIDI_To_Host
+ .text.MIDI_To_Arduino
+                0x000003c2       0x86 obj/USBtoSerial.o
+                0x000003c2                MIDI_To_Arduino
+ .text.startup.main
+                0x00000448      0x174 obj/USBtoSerial.o
+                0x00000448                main
+ .text.EVENT_CDC_Device_LineEncodingChanged
+                0x000005bc       0x8a obj/USBtoSerial.o
+                0x000005bc                EVENT_CDC_Device_LineEncodingChanged
+ .text.getTypeFromStatusByte
+                0x00000646       0x20 obj/USBtoSerial.o
+                0x00000646                getTypeFromStatusByte
+ .text.isChannelMessage
+                0x00000666       0x20 obj/USBtoSerial.o
+                0x00000666                isChannelMessage
+ .text.__vector_23
+                0x00000686      0x258 obj/USBtoSerial.o
+                0x00000686                __vector_23
+ .text.CALLBACK_USB_GetDescriptor
+                0x000008de       0xae obj/Descriptors.o
+                0x000008de                CALLBACK_USB_GetDescriptor
+ .text.Endpoint_Write_Stream_LE
+                0x0000098c       0x92 obj/EndpointStream_AVR8.o
+                0x0000098c                Endpoint_Write_Stream_LE
+ .text.Endpoint_Read_Stream_LE
+                0x00000a1e       0x92 obj/EndpointStream_AVR8.o
+                0x00000a1e                Endpoint_Read_Stream_LE
+ .text.Endpoint_Write_Control_Stream_LE
+                0x00000ab0       0xb2 obj/EndpointStream_AVR8.o
+                0x00000ab0                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x00000b62       0xb4 obj/EndpointStream_AVR8.o
+                0x00000b62                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x00000c16       0x6a obj/Endpoint_AVR8.o
+                0x00000c16                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ConfigureEndpointTable
+                0x00000c80       0x7a obj/Endpoint_AVR8.o
+                0x00000c80                Endpoint_ConfigureEndpointTable
+ .text.Endpoint_ClearStatusStage
+                0x00000cfa       0x3a obj/Endpoint_AVR8.o
+                0x00000cfa                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x00000d34       0x64 obj/Endpoint_AVR8.o
+                0x00000d34                Endpoint_WaitUntilReady
+ .text.USB_ResetInterface
+                0x00000d98       0x70 obj/USBController_AVR8.o
+                0x00000d98                USB_ResetInterface
+ .text.USB_Init
+                0x00000e08       0x12 obj/USBController_AVR8.o
+                0x00000e08                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x00000e1a        0x6 obj/USBInterrupt_AVR8.o
+                0x00000e1a                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x00000e20        0x6 obj/USBInterrupt_AVR8.o
+                0x00000e20                USB_INT_ClearAllInterrupts
+ .text.__vector_11
+                0x00000e26      0x14c obj/USBInterrupt_AVR8.o
+                0x00000e26                __vector_11
+ .text.__vector_12
+                0x00000f72       0x86 obj/USBInterrupt_AVR8.o
+                0x00000f72                __vector_12
+ .text.USB_Device_ProcessControlRequest
+                0x00000ff8      0x2be obj/DeviceStandardReq.o
+                0x00000ff8                USB_Device_ProcessControlRequest
+ .text.USB_Event_Stub
+                0x000012b6        0x2 obj/Events.o
+                0x000012b6                USB_Event_Stub
+                0x000012b6                EVENT_USB_Device_Suspend
+                0x000012b6                EVENT_USB_Device_StartOfFrame
+                0x000012b6                EVENT_USB_Device_Reset
+                0x000012b6                EVENT_USB_Device_WakeUp
+ .text.USB_USBTask
+                0x000012b8       0x32 obj/USBTask.o
+                0x000012b8                USB_USBTask
+ .text.CDC_Device_ConfigureEndpoints
+                0x000012ea       0x4a obj/CDCClassDevice.o
+                0x000012ea                CDC_Device_ConfigureEndpoints
+ .text.CDC_Device_SendByte
+                0x00001334       0x54 obj/CDCClassDevice.o
+                0x00001334                CDC_Device_SendByte
+ .text.CDC_Device_Flush
+                0x00001388       0x52 obj/CDCClassDevice.o
+                0x00001388                CDC_Device_Flush
+ .text.CDC_Device_USBTask
+                0x000013da       0x2a obj/CDCClassDevice.o
+                0x000013da                CDC_Device_USBTask
+ .text.CDC_Device_ReceiveByte
+                0x00001404       0x58 obj/CDCClassDevice.o
+                0x00001404                CDC_Device_ReceiveByte
+ .text.CDC_Device_Event_Stub
+                0x0000145c        0x2 obj/CDCClassDevice.o
+                0x0000145c                EVENT_CDC_Device_BreakSent
+                0x0000145c                CDC_Device_Event_Stub
+                0x0000145c                EVENT_CDC_Device_ControLineStateChanged
+ .text.CDC_Device_ProcessControlRequest
+                0x0000145e      0x15e obj/CDCClassDevice.o
+                0x0000145e                CDC_Device_ProcessControlRequest
+ .text.libgcc.div
+                0x000015bc       0x44 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+                0x000015bc                __udivmodsi4
+                0x00001600                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001600        0x0 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+                0x00001600                _exit
+                0x00001600                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001600        0x4 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001604                _etext = .
+
+.data           0x00800100       0x1e load address 0x00001604
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x1d obj/USBtoSerial.o
+                0x00800100                VirtualSerial_CDC_Interface
+                0x0080011b                mode
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0080011e                . = ALIGN (0x2)
+ *fill*         0x0080011d        0x1 
+                0x0080011e                _edata = .
+                0x0080011e                PROVIDE (__data_end, .)
+
+.bss            0x0080011e      0x134
+                0x0080011e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080011e      0x11c obj/USBtoSerial.o
+                0x0080011e                rx_ticks
+                0x00800120                tx_ticks
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080023a        0xc obj/USBtoSerial.o
+                0x0080023a                mCompleteMessage
+                0x0080023e                mPendingMessageValid
+                0x0080023f                mPendingMessageExpectedLength
+                0x00800240                mRunningStatus_RX
+                0x00800241                mPendingMessageIndex
+                0x00800242                mRunningStatus_TX
+                0x00800243                mPendingMessage
+ COMMON         0x00800246        0x3 obj/DeviceStandardReq.o
+                0x00800246                USB_Device_ConfigurationNumber
+                0x00800247                USB_Device_CurrentlySelfPowered
+                0x00800248                USB_Device_RemoteWakeupEnabled
+ COMMON         0x00800249        0x9 obj/USBTask.o
+                0x00800249                USB_IsInitialized
+                0x0080024a                USB_ControlRequest
+                0x00800252                PROVIDE (__bss_end, .)
+                0x00001604                __data_load_start = LOADADDR (.data)
+                0x00001622                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800252        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800252                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 obj/USBtoSerial.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 obj/Descriptors.o
+ .comment       0x00000011       0x12 obj/EndpointStream_AVR8.o
+ .comment       0x00000011       0x12 obj/Endpoint_AVR8.o
+ .comment       0x00000011       0x12 obj/USBController_AVR8.o
+ .comment       0x00000011       0x12 obj/USBInterrupt_AVR8.o
+ .comment       0x00000011       0x12 obj/DeviceStandardReq.o
+ .comment       0x00000011       0x12 obj/Events.o
+ .comment       0x00000011       0x12 obj/USBTask.o
+ .comment       0x00000011       0x12 obj/CDCClassDevice.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 obj/USBtoSerial.o
+ .debug_aranges
+                0x000000a8       0x20 obj/Descriptors.o
+ .debug_aranges
+                0x000000c8       0xc8 obj/EndpointStream_AVR8.o
+ .debug_aranges
+                0x00000190       0x40 obj/Endpoint_AVR8.o
+ .debug_aranges
+                0x000001d0       0x30 obj/USBController_AVR8.o
+ .debug_aranges
+                0x00000200       0x38 obj/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x00000238       0x20 obj/DeviceStandardReq.o
+ .debug_aranges
+                0x00000258       0x20 obj/Events.o
+ .debug_aranges
+                0x00000278       0x20 obj/USBTask.o
+ .debug_aranges
+                0x00000298       0xa8 obj/CDCClassDevice.o
+ .debug_aranges
+                0x00000340       0x20 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .debug_aranges
+                0x00000360       0x20 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000380       0x20 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000003a0       0x20 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7155
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x696 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .debug_info    0x00000696     0x1555 obj/USBtoSerial.o
+ .debug_info    0x00001beb      0xc3f obj/Descriptors.o
+ .debug_info    0x0000282a     0x17b6 obj/EndpointStream_AVR8.o
+ .debug_info    0x00003fe0      0x60e obj/Endpoint_AVR8.o
+ .debug_info    0x000045ee      0x471 obj/USBController_AVR8.o
+ .debug_info    0x00004a5f      0x710 obj/USBInterrupt_AVR8.o
+ .debug_info    0x0000516f      0xa3a obj/DeviceStandardReq.o
+ .debug_info    0x00005ba9       0x78 obj/Events.o
+ .debug_info    0x00005c21      0x25b obj/USBTask.o
+ .debug_info    0x00005e7c      0xfe9 obj/CDCClassDevice.o
+ .debug_info    0x00006e65       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .debug_info    0x00006f21       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .debug_info    0x00006fdd       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .debug_info    0x00007099       0xbc c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+
+.debug_abbrev   0x00000000     0x1be8
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x63b c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .debug_abbrev  0x0000063b      0x409 obj/USBtoSerial.o
+ .debug_abbrev  0x00000a44      0x174 obj/Descriptors.o
+ .debug_abbrev  0x00000bb8      0x1e3 obj/EndpointStream_AVR8.o
+ .debug_abbrev  0x00000d9b      0x21f obj/Endpoint_AVR8.o
+ .debug_abbrev  0x00000fba      0x188 obj/USBController_AVR8.o
+ .debug_abbrev  0x00001142      0x20c obj/USBInterrupt_AVR8.o
+ .debug_abbrev  0x0000134e      0x295 obj/DeviceStandardReq.o
+ .debug_abbrev  0x000015e3       0x44 obj/Events.o
+ .debug_abbrev  0x00001627      0x16b obj/USBTask.o
+ .debug_abbrev  0x00001792      0x406 obj/CDCClassDevice.o
+ .debug_abbrev  0x00001b98       0x14 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x00001bac       0x14 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .debug_abbrev  0x00001bc0       0x14 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00001bd4       0x14 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000     0x414e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .debug_line    0x0000001a      0xcfa obj/USBtoSerial.o
+ .debug_line    0x00000d14      0x23a obj/Descriptors.o
+ .debug_line    0x00000f4e     0x141a obj/EndpointStream_AVR8.o
+ .debug_line    0x00002368      0x48c obj/Endpoint_AVR8.o
+ .debug_line    0x000027f4      0x2bf obj/USBController_AVR8.o
+ .debug_line    0x00002ab3      0x487 obj/USBInterrupt_AVR8.o
+ .debug_line    0x00002f3a      0x486 obj/DeviceStandardReq.o
+ .debug_line    0x000033c0       0x52 obj/Events.o
+ .debug_line    0x00003412      0x17d obj/USBTask.o
+ .debug_line    0x0000358f      0x91d obj/CDCClassDevice.o
+ .debug_line    0x00003eac      0x122 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+ .debug_line    0x00003fce       0x62 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+ .debug_line    0x00004030       0x98 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+ .debug_line    0x000040c8       0x86 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+
+.debug_frame    0x00000000      0x960
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1b4 obj/USBtoSerial.o
+ .debug_frame   0x000001b4       0x24 obj/Descriptors.o
+ .debug_frame   0x000001d8      0x3bc obj/EndpointStream_AVR8.o
+ .debug_frame   0x00000594       0x78 obj/Endpoint_AVR8.o
+ .debug_frame   0x0000060c       0x44 obj/USBController_AVR8.o
+ .debug_frame   0x00000650       0xec obj/USBInterrupt_AVR8.o
+ .debug_frame   0x0000073c       0x3c obj/DeviceStandardReq.o
+ .debug_frame   0x00000778       0x24 obj/Events.o
+ .debug_frame   0x0000079c       0x2c obj/USBTask.o
+ .debug_frame   0x000007c8      0x198 obj/CDCClassDevice.o
+
+.debug_str      0x00000000     0x3135
+ *(.debug_str)
+ .debug_str     0x00000000      0x256 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+ .debug_str     0x00000256      0xd04 obj/USBtoSerial.o
+                                0xda4 (size before relaxing)
+ .debug_str     0x00000f5a     0x1084 obj/Descriptors.o
+                               0x1327 (size before relaxing)
+ .debug_str     0x00001fde      0x54a obj/EndpointStream_AVR8.o
+                                0x877 (size before relaxing)
+ .debug_str     0x00002528      0x192 obj/Endpoint_AVR8.o
+                                0x637 (size before relaxing)
+ .debug_str     0x000026ba      0x264 obj/USBController_AVR8.o
+                                0x54d (size before relaxing)
+ .debug_str     0x0000291e      0x131 obj/USBInterrupt_AVR8.o
+                                0x5a2 (size before relaxing)
+ .debug_str     0x00002a4f      0x3ae obj/DeviceStandardReq.o
+                                0x9e9 (size before relaxing)
+ .debug_str     0x00002dfd       0x34 obj/Events.o
+                                0x1cb (size before relaxing)
+ .debug_str     0x00002e31       0x42 obj/USBTask.o
+                                0x39c (size before relaxing)
+ .debug_str     0x00002e73      0x2c2 obj/CDCClassDevice.o
+                                0xa8e (size before relaxing)
+
+.debug_loc      0x00000000     0x3d2d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x6c7 obj/USBtoSerial.o
+ .debug_loc     0x000006c7      0x179 obj/Descriptors.o
+ .debug_loc     0x00000840     0x1f6f obj/EndpointStream_AVR8.o
+ .debug_loc     0x000027af      0x399 obj/Endpoint_AVR8.o
+ .debug_loc     0x00002b48       0x78 obj/USBController_AVR8.o
+ .debug_loc     0x00002bc0      0x3b8 obj/USBInterrupt_AVR8.o
+ .debug_loc     0x00002f78      0x2f6 obj/DeviceStandardReq.o
+ .debug_loc     0x0000326e       0x49 obj/USBTask.o
+ .debug_loc     0x000032b7      0xa76 obj/CDCClassDevice.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x440
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x98 obj/USBtoSerial.o
+ .debug_ranges  0x00000098       0x10 obj/Descriptors.o
+ .debug_ranges  0x000000a8      0x1f8 obj/EndpointStream_AVR8.o
+ .debug_ranges  0x000002a0       0x78 obj/Endpoint_AVR8.o
+ .debug_ranges  0x00000318       0x20 obj/USBController_AVR8.o
+ .debug_ranges  0x00000338       0x28 obj/USBInterrupt_AVR8.o
+ .debug_ranges  0x00000360       0x28 obj/DeviceStandardReq.o
+ .debug_ranges  0x00000388       0x10 obj/Events.o
+ .debug_ranges  0x00000398       0x10 obj/USBTask.o
+ .debug_ranges  0x000003a8       0x98 obj/CDCClassDevice.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(USBtoSerial.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Audio_Device_ConfigureEndpoints                   obj/AudioClassDevice.o
+Audio_Device_Event_Stub                           obj/AudioClassDevice.o
+Audio_Device_ProcessControlRequest                obj/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetEndpointProperty      obj/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetInterfaceProperty     obj/AudioClassDevice.o
+CALLBACK_HIDParser_FilterHIDReportItem            obj/HIDParser.o
+CALLBACK_HID_Device_CreateHIDReport               obj/HIDClassDevice.o
+CALLBACK_HID_Device_ProcessHIDReport              obj/HIDClassDevice.o
+CALLBACK_MS_Device_SCSICommandReceived            obj/MassStorageClassDevice.o
+CALLBACK_USB_GetDescriptor                        obj/Descriptors.o
+                                                  obj/DeviceStandardReq.o
+CDC_Device_BytesReceived                          obj/CDCClassDevice.o
+CDC_Device_ConfigureEndpoints                     obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+CDC_Device_CreateBlockingStream                   obj/CDCClassDevice.o
+CDC_Device_CreateStream                           obj/CDCClassDevice.o
+CDC_Device_Event_Stub                             obj/CDCClassDevice.o
+CDC_Device_Flush                                  obj/CDCClassDevice.o
+CDC_Device_ProcessControlRequest                  obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+CDC_Device_ReceiveByte                            obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+CDC_Device_SendByte                               obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+CDC_Device_SendControlLineStateChange             obj/CDCClassDevice.o
+CDC_Device_SendData                               obj/CDCClassDevice.o
+CDC_Device_SendData_P                             obj/CDCClassDevice.o
+CDC_Device_SendString                             obj/CDCClassDevice.o
+CDC_Device_SendString_P                           obj/CDCClassDevice.o
+CDC_Device_USBTask                                obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+EVENT_Audio_Device_StreamStartStop                obj/AudioClassDevice.o
+EVENT_CDC_Device_BreakSent                        obj/CDCClassDevice.o
+EVENT_CDC_Device_ControLineStateChanged           obj/CDCClassDevice.o
+EVENT_CDC_Device_LineEncodingChanged              obj/USBtoSerial.o
+EVENT_PRNT_Device_SoftReset                       obj/PrinterClassDevice.o
+EVENT_USB_Device_ConfigurationChanged             obj/USBtoSerial.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          obj/USBtoSerial.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   obj/USBtoSerial.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       obj/USBtoSerial.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          obj/Events.o
+EVENT_USB_Device_WakeUp                           obj/Events.o
+Endpoint_ClearEndpoints                           obj/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         obj/Endpoint_AVR8.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_ConfigureEndpointTable                   obj/Endpoint_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/AudioClassDevice.o
+Endpoint_ConfigureEndpoint_Prv                    obj/Endpoint_AVR8.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+                                                  obj/USBtoSerial.o
+Endpoint_Discard_Stream                           obj/EndpointStream_AVR8.o
+Endpoint_Null_Stream                              obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+Endpoint_Read_EStream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/USBtoSerial.o
+Endpoint_WaitUntilReady                           obj/Endpoint_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 obj/EndpointStream_AVR8.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_EStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         obj/EndpointStream_AVR8.o
+                                                  obj/CDCClassDevice.o
+Endpoint_Write_Stream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+HID_Device_ConfigureEndpoints                     obj/HIDClassDevice.o
+HID_Device_ProcessControlRequest                  obj/HIDClassDevice.o
+HID_Device_USBTask                                obj/HIDClassDevice.o
+LanguageString                                    obj/Descriptors.o
+MIDI_ConfigurationDescriptor                      obj/Descriptors.o
+MIDI_DeviceDescriptor                             obj/Descriptors.o
+MIDI_Device_ConfigureEndpoints                    obj/MIDIClassDevice.o
+MIDI_Device_Flush                                 obj/MIDIClassDevice.o
+MIDI_Device_ReceiveEventPacket                    obj/MIDIClassDevice.o
+MIDI_Device_SendEventPacket                       obj/MIDIClassDevice.o
+MIDI_Device_USBTask                               obj/MIDIClassDevice.o
+MIDI_ProductString                                obj/Descriptors.o
+MIDI_To_Arduino                                   obj/USBtoSerial.o
+MIDI_To_Host                                      obj/USBtoSerial.o
+MS_Device_ConfigureEndpoints                      obj/MassStorageClassDevice.o
+MS_Device_ProcessControlRequest                   obj/MassStorageClassDevice.o
+MS_Device_USBTask                                 obj/MassStorageClassDevice.o
+ManufacturerString                                obj/Descriptors.o
+PRNT_Device_BytesReceived                         obj/PrinterClassDevice.o
+PRNT_Device_ConfigureEndpoints                    obj/PrinterClassDevice.o
+PRNT_Device_CreateBlockingStream                  obj/PrinterClassDevice.o
+PRNT_Device_CreateStream                          obj/PrinterClassDevice.o
+PRNT_Device_Event_Stub                            obj/PrinterClassDevice.o
+PRNT_Device_Flush                                 obj/PrinterClassDevice.o
+PRNT_Device_ProcessControlRequest                 obj/PrinterClassDevice.o
+PRNT_Device_ReceiveByte                           obj/PrinterClassDevice.o
+PRNT_Device_SendByte                              obj/PrinterClassDevice.o
+PRNT_Device_SendData                              obj/PrinterClassDevice.o
+PRNT_Device_SendString                            obj/PrinterClassDevice.o
+PRNT_Device_USBTask                               obj/PrinterClassDevice.o
+RNDIS_Device_ConfigureEndpoints                   obj/RNDISClassDevice.o
+RNDIS_Device_IsPacketReceived                     obj/RNDISClassDevice.o
+RNDIS_Device_ProcessControlRequest                obj/RNDISClassDevice.o
+RNDIS_Device_ReadPacket                           obj/RNDISClassDevice.o
+RNDIS_Device_SendPacket                           obj/RNDISClassDevice.o
+RNDIS_Device_USBTask                              obj/RNDISClassDevice.o
+Serial_ConfigurationDescriptor                    obj/Descriptors.o
+Serial_DeviceDescriptor                           obj/Descriptors.o
+Serial_ProductString                              obj/Descriptors.o
+SetupHardware                                     obj/USBtoSerial.o
+TICK_COUNT                                        obj/USBtoSerial.o
+USB_ControlRequest                                obj/USBTask.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/Endpoint_AVR8.o
+                                                  obj/EndpointStream_AVR8.o
+USB_Device_ConfigurationNumber                    obj/DeviceStandardReq.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  obj/DeviceStandardReq.o
+                                                  obj/USBTask.o
+                                                  obj/USBInterrupt_AVR8.o
+USB_Device_RemoteWakeupEnabled                    obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_SendRemoteWakeup                       obj/Device_AVR8.o
+USB_Disable                                       obj/USBController_AVR8.o
+USB_Event_Stub                                    obj/Events.o
+USB_GetHIDReportItemInfo                          obj/HIDParser.o
+USB_GetHIDReportSize                              obj/HIDParser.o
+USB_GetNextDescriptorComp                         obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 obj/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Init                                          obj/USBController_AVR8.o
+                                                  obj/USBtoSerial.o
+USB_IsInitialized                                 obj/USBTask.o
+                                                  obj/USBController_AVR8.o
+USB_ProcessHIDReport                              obj/HIDParser.o
+USB_ResetInterface                                obj/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          obj/HIDParser.o
+USB_USBTask                                       obj/USBTask.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+VirtualSerial_CDC_Interface                       obj/USBtoSerial.o
+__FUSE_REGION_LENGTH__                            c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__bad_interrupt                                   c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__bss_end                                         c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+__data_end                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+__data_start                                      c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_clear_bss.o)
+                                                  obj/USBTask.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/USBtoSerial.o
+__do_copy_data                                    c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_copy_data.o)
+                                                  obj/RNDISClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/USBtoSerial.o
+__heap_end                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__init                                            c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__mulhi3                                          c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_mulhi3.o)
+                                                  obj/HIDParser.o
+__stack                                           c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__strlen_P                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(strlen_P.o)
+                                                  obj/CDCClassDevice.o
+__udivmodsi4                                      c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_udivmodsi4.o)
+                                                  obj/USBtoSerial.o
+__vector_1                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_10                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_11                                       obj/USBInterrupt_AVR8.o
+                                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_12                                       obj/USBInterrupt_AVR8.o
+                                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_13                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_14                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_15                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_16                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_17                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_18                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_19                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_2                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_20                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_21                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_22                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_23                                       obj/USBtoSerial.o
+                                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_24                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_25                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_26                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_27                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_28                                       c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_3                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_4                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_5                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_6                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_7                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_8                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_9                                        c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vector_default                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+__vectors                                         c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+_exit                                             c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+eeprom_read_byte                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eerd_byte.o)
+                                                  obj/EndpointStream_AVR8.o
+eeprom_update_byte                                c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+                                                  obj/EndpointStream_AVR8.o
+eeprom_update_r18                                 c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libatmega8u2.a(eeupd_byte.o)
+exit                                              c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/avr35\libgcc.a(_exit.o)
+                                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+getChannelFromStatusByte                          obj/USBtoSerial.o
+getStatus                                         obj/USBtoSerial.o
+getTypeFromStatusByte                             obj/USBtoSerial.o
+isChannelMessage                                  obj/USBtoSerial.o
+mCompleteMessage                                  obj/USBtoSerial.o
+mPendingMessage                                   obj/USBtoSerial.o
+mPendingMessageExpectedLength                     obj/USBtoSerial.o
+mPendingMessageIndex                              obj/USBtoSerial.o
+mPendingMessageValid                              obj/USBtoSerial.o
+mRunningStatus_RX                                 obj/USBtoSerial.o
+mRunningStatus_TX                                 obj/USBtoSerial.o
+main                                              obj/USBtoSerial.o
+                                                  c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35/crtatmega8u2.o
+memcmp                                            c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcmp.o)
+                                                  obj/HIDClassDevice.o
+memcpy                                            c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy.o)
+                                                  obj/RNDISClassDevice.o
+                                                  obj/HIDClassDevice.o
+memcpy_P                                          c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memcpy_P.o)
+                                                  obj/RNDISClassDevice.o
+memset                                            c:/program files (x86)/arduino/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr35\libc.a(memset.o)
+                                                  obj/HIDClassDevice.o
+mode                                              obj/USBtoSerial.o
+                                                  obj/Descriptors.o
+rx_ticks                                          obj/USBtoSerial.o
+tx_ticks                                          obj/USBtoSerial.o
